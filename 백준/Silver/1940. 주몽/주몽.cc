@@ -1,8 +1,10 @@
 #include<bits/stdc++.h> 
-using namespace std; 
+using namespace std;
 int arr[15001];
 int n,m,cnt;
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);cout.tie(NULL);
 	cin>>n;
 	cin>>m;
 	for(int i =0;i<n;i++){
