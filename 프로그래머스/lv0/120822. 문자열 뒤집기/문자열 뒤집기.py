@@ -1,4 +1,6 @@
 def solution(my_string):
-    answer = ''
-    answer = my_string[::-1]
+    reverse_string = ""
+    for i in my_string:
+        reverse_string= i + reverse_string
+    answer = reverse_string    
     return answer
