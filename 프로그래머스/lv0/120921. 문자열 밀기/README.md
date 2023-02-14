@@ -1,10 +1,10 @@
 # [level 0] 문자열 밀기 - 120921 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120921?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120921?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 0.01 ms
+메모리: 3.63 MB, 시간: 0.01 ms
 
 ### 구분
 
