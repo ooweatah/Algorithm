@@ -5,7 +5,7 @@ using namespace std;
 
 int solution(vector<int> array, int n) {
     int answer = array[0];
-    int diff = 50;
+    int diff = 100;
 
     sort(array.begin(),array.end());
     for(const auto v : array)
