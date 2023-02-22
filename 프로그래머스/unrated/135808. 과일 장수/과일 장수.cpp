@@ -17,6 +17,9 @@ int solution(int k, int m, vector<int> score) {// k:최대사과점수 , m:사�
         for(int j=i;j<i+m&&j<score.size();j++){ // i부터 i+m만큼 , i+m부터 i+m+m 
             group_min1 = min(group_min1,score[j]);
         }
+        if(group_min1>k){
+            group_min1 = k;
+        }
         answer += (group_min1*m);
     
     }
