@@ -14,10 +14,10 @@ int main()
       //  }
    // }
     for (int i = 0; N[i]; i++) {
-        char c = tolower(N[i]); // 대문자를 소문자로 변환
-        if (isalpha(c)) {
-            a[c - 'a']++;
-        }
+        char c = toupper(N[i]); // 대문자를 소문자로 변환
+        
+            a[c - 'A']++;
+        
     }
     int maxCount = 0;
     char maxA = '?';
